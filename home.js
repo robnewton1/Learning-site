@@ -1,23 +1,33 @@
 $(Document).ready(function() {
 
 	 $("#button").click(function(){	
-		$("#moveh2").slideUp();
+		$("#button,#moveh2").slideUp();
     });
-	 if ($("moveh2").is(":hidden")) {
-	 	$("stayCalm").show();
-	 }
+
+
+	 $('#button').click(function(){
+	 	$('.About_Me,.staycalm').show(1500);
+	 });
 
 
 
+	 $('.imgOne').mouseover(function(){
+	 	$("#picOne").();
+	 });
+
+	$('.imgTwo').mouseover(function(){
+	 	$("#picTwo").show();
+	 });
+
+	$('.imgThree').mouseover(function(){
+	 	$("#picThree").show();
+	 });
+	$('.imgFour').mouseover(function(){
+	 	$("#picFour").show();
+	 });
 
 
-
-
-
-
-
-
-
+	
 
 
 

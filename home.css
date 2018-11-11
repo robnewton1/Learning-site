@@ -1,9 +1,19 @@
 body {
 	background-color:#eca1a6;
+	margin: 10px 20px;
+}
+
+nav li {
+	display: inline-block;
+	border: 2px solid black;
+	padding: 10px 150px;
+
+
 }
 /*How to add picture into whole background no spaces*/
 h2 {
-	color: white;
+	color:#3d1919;
+	font-size: 40px;
 }
 		/* Ask how to make links different color*/
 
@@ -22,7 +32,7 @@ h2 {
 		/*Ask how to make Name appear in the middle of block*/
 div {
 	border: 10px;
-	padding-bottom: 200px;
+	padding-bottom: 5px;
 	
 	
 }
@@ -33,25 +43,112 @@ div {
 	text-align: center;
 	width: 300px;
 	height: 100px;
-	
+	border-color: #eca1a6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom-color:#6da5ff;
+ /*   border-bottom: 2px;*/
 }
 .moveh2 {
 	text-align: center;
+}
+
+
+.talk {
+	display: none;
+}
+.homePic {
+	position: absolute;
+	top: 100px;
 }
 .staycalm {
 	display: none;
 	color: black;
 	background-color: blue;
-	float: right;
-	position: relative;
-	bottom: 170px;
+	position: absolute; 
+	bottom: 150px;
 	font-size: 28px;
+	float: left;
 
 }
+
 
 
 .About_Me {
 	display: none;
-	font-size: 18px;
+	font-size: 20px;
+	text-align: left;
+	width: 50%;
+	position: relative;
+	left: 500px;
+	top:100px;
+}
+
+
+.mainPic {
+	opacity: 0.5;
+	position: absolute;
+	left: 30px;
+}
+
+.secImages {
+	opacity: .9;
+	border: 2px solid black;
+	padding: 30px 50px;
+	display: grid;
+	float: left;
+	clear: left;	
+	position: relative;
+	left: 20px;
+
+
+	
+}
+.secImages:hover {
+	height: 250px;
+	width: 250px;
+}
+.hidePics {
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	left: 50px;
+}
+#picOne {
+	position: relative;
+	top: 100px;
+}
+#picTwo {
+	position: relative;
+	top: 300px;
+	
+}
+#picThree {
+	position: relative;
+	top: 500px;
+}
+#picFour {
+	position: relative;
+	top: 675px;
+}
+.contact {
+	background-color: #815c8c;
+	display: block;
+	text-align: center;
+
+}
+.contInfo {
+	background-color: #815c8c;
+	display: block;
 	text-align: center;
 }
+.semiCont {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+
